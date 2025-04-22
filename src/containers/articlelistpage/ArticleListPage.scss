@@ -1,0 +1,24 @@
+.article-list-page {
+    padding: 2rem;
+    h1 {
+      margin-bottom: 2rem;
+    }
+  
+    .articles-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+
+  .filters {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    select {
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
+  }

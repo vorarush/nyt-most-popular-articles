@@ -1,0 +1,24 @@
+.article-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  
+    .read-more {
+      margin-top: auto;
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
