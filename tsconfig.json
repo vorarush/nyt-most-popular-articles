@@ -14,8 +14,9 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["cypress", "@testing-library/cypress"],
   },
-  "include": ["src"],
+  "include": ["src", "cypress"],
   "exclude": ["node_modules"]
 }
