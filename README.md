@@ -63,6 +63,7 @@ npm test
 
 #### Generate code coverage report:
 npm run test:coverage
+
 Open coverage/lcov-report/index.html to view coverage summary.
 
 
@@ -77,4 +78,5 @@ npm run lint:fix
 
 ### Build for Production
 npm run build
+
 Build output will be in the dist/ directory
