@@ -35,43 +35,43 @@ src/
 └── index.tsx           # App entry point
 
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 git clone https://github.com/vorarush/nyt-most-popular-articles.git
 cd nyt-most-popular-articles
 
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 npm install
 
-### 3. Add Environment Variables
+#### 3. Add Environment Variables
 Create a .env file in the root:
 
 REACT_APP_NYT_API_KEY=your-nyt-api-key-here
 
 Get your API key from https://developer.nytimes.com/get-started
 
-4. Run the App Locally
+#### 4. Run the App Locally
 npm start
 
 Visit http://localhost:3000 on browser once your app is running
 
 
 ### Testing & Coverage
-# Run all tests:
+#### Run all tests:
 npm test
 
-# Generate code coverage report:
+#### Generate code coverage report:
 npm run test:coverage
 Open coverage/lcov-report/index.html to view coverage summary.
 
 
 ### Static Code Analysis
 
-# Lint the code:
+#### Lint the code:
 npm run lint
 
-# Auto-fix lint errors:
+#### Auto-fix lint errors:
 npm run lint:fix
 
 
