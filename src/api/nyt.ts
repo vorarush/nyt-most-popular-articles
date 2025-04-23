@@ -11,7 +11,7 @@ export const fetchMostPopularArticles = async (days: 1 | 7 | 30 = 1): Promise<Ar
         `${BASE_URL}/${days}.json?api-key=${apiKey}`
       );
       return response.data.results;
-    } catch (error) {
+    } catch {
       throw new Error('Failed to fetch articles');
     }
 };

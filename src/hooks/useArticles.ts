@@ -13,7 +13,7 @@ export const useArticles = (days: 1 | 7 | 30 = 1) => {
                 setLoading(true);
                 const data = await fetchMostPopularArticles(days);
                 setArticles(data);
-            } catch (err){
+            } catch {
                 setError('failed to fetch articles');
             } finally {
                 setLoading(false);

@@ -7,6 +7,7 @@ import prettier from 'eslint-config-prettier';
 export default [
   {
     files: ['src/**/*.{js,jsx,ts,tsx}'],
+    ignores: ['node_modules', 'dist', 'coverage'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -27,9 +28,11 @@ export default [
     },
     rules: {
       'react/react-in-jsx-scope': 'off',
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'warn',
+      '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
     },
-    ignores: ['node_modules', 'dist'],
   },
   prettier,
 ];
