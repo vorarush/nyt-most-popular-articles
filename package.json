@@ -10,7 +10,8 @@
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "sonar": "sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.host.url=https://sonarcloud.io"
   },
   "keywords": [],
   "author": "",
@@ -53,6 +54,7 @@
     "prettier": "^3.5.3",
     "sass": "^1.86.3",
     "sass-loader": "^16.0.5",
+    "sonar-scanner": "^3.1.0",
     "style-loader": "^4.0.0",
     "ts-jest": "^29.3.2",
     "ts-loader": "^9.5.2",
